@@ -1,9 +1,9 @@
 class Factorial
-    def find(n)
-      raise ArgumentError, 'Argument must be greater than or equal to 0.' if n < 0
+  def find(num)
+    raise ArgumentError, 'Argument must be greater than or equal to 0.' if num.negative?
 
-      return 1 if n.zero?
+    return 1 if num.zero?
 
-      (1..n).reduce(:*)
-    end
+    (1..num).reduce(:*)
   end
+end

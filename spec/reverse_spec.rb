@@ -1,10 +1,10 @@
 require_relative '../reverse'
 
 describe '#reverse' do
-    include Reverse
+  include Reverse
 
-    it 'should reverse a word properly' do
-        reversed = reverse('hello')
-        expect(reversed).to eq('olleh')
-    end
+  it 'should reverse a word properly' do
+    reversed = reverse('hello')
+    expect(reversed).to eq('olleh')
+  end
 end

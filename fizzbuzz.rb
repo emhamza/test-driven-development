@@ -1,9 +1,9 @@
 module Fizzbuzz
-    def fizzbuzz(n)
-      return 'fizzbuzz' if (n % 3).zero? && (n % 5).zero?
-      return 'fizz' if (n % 3).zero?
-      return 'buzz' if (n % 5).zero?
+  def fizzbuzz(num)
+    return 'fizzbuzz' if (num % 3).zero? && (num % 5).zero?
+    return 'fizz' if (num % 3).zero?
+    return 'buzz' if (num % 5).zero?
 
-      n.to_s
-    end
+    num.to_s
   end
+end
