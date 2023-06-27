@@ -19,7 +19,7 @@ describe '#fizzbuzz' do
     end
 
     it 'should return the integer as a string' do
-        others = fizzbuzz(9)
+        others = fizzbuzz(11)
         expect(others).to eq('11')
     end
 end
